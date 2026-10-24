@@ -1,0 +1,24 @@
+// Generated using https://github.com/a2x/dota2-dumper
+// 2026-10-24 17:43:46.873637600 UTC
+
+#![allow(non_upper_case_globals, unused)]
+
+pub mod dota2_dumper {
+    // Module: client.dll
+    pub mod buttons {
+        pub const attack: usize = 0x5B2F0F0;
+        pub const attack2: usize = 0x5B2F180;
+        pub const back: usize = 0x5B2F3C0;
+        pub const duck: usize = 0x5B2F690;
+        pub const forward: usize = 0x5B2F330;
+        pub const jump: usize = 0x5B2F600;
+        pub const left: usize = 0x5B2F450;
+        pub const query: usize = 0x6255590;
+        pub const reload: usize = 0x5B2F060;
+        pub const right: usize = 0x5B2F4E0;
+        pub const sprint: usize = 0x5B2EFD0;
+        pub const turnleft: usize = 0x5B2F210;
+        pub const turnright: usize = 0x5B2F2A0;
+        pub const r#use: usize = 0x5B2F570;
+    }
+}

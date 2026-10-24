@@ -1,0 +1,41 @@
+// Generated using https://github.com/a2x/dota2-dumper
+// 2026-10-24 17:43:46.873637600 UTC
+
+#![allow(non_upper_case_globals, unused)]
+
+pub mod dota2_dumper {
+    pub mod offsets {
+        // Module: client.dll
+        pub mod client_dll {
+            pub const dwEntityList: usize = 0x65A92D8;
+            pub const dwGameEntitySystem: usize = 0x65A92D8;
+            pub const dwGameEntitySystem_highestEntityIndex: usize = 0x20C0;
+            pub const dwGameRules: usize = 0x6218008;
+            pub const dwGlobalVars: usize = 0x5B2A3E8;
+            pub const dwViewMatrix: usize = 0x6220CB0;
+            pub const dwViewRender: usize = 0x62217E8;
+        }
+        // Module: engine2.dll
+        pub mod engine2_dll {
+            pub const dwBuildNumber: usize = 0x5B80F8;
+            pub const dwNetworkGameClient: usize = 0x8B3C60;
+            pub const dwNetworkGameClient_clientTickCount: usize = 0x398;
+            pub const dwNetworkGameClient_deltaTick: usize = 0x24C;
+            pub const dwNetworkGameClient_isBackgroundMap: usize = 0x2C143F;
+            pub const dwNetworkGameClient_localPlayer: usize = 0xF8;
+            pub const dwNetworkGameClient_maxClients: usize = 0x240;
+            pub const dwNetworkGameClient_serverTickCount: usize = 0x24C;
+            pub const dwNetworkGameClient_signOnState: usize = 0x230;
+            pub const dwWindowHeight: usize = 0x8B8014;
+            pub const dwWindowWidth: usize = 0x8B8010;
+        }
+        // Module: inputsystem.dll
+        pub mod inputsystem_dll {
+            pub const dwInputSystem: usize = 0x46BC0;
+        }
+        // Module: soundsystem.dll
+        pub mod soundsystem_dll {
+            pub const dwSoundSystem: usize = 0x64AF00;
+        }
+    }
+}
